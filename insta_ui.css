@@ -1,0 +1,274 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.wrapper {
+    margin-top: 20px;
+    width: 100%;
+    position: relative;
+}
+
+.insta {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+
+.sidebar {
+    position: fixed;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 20%;
+    height: 100%;
+}
+
+.right {
+    padding: 5px;
+    background-color: #F6F6F6;
+    width: calc(100% - 20%);
+    height: 100%;
+    position: fixed;
+    right: 20px;
+    border-radius: 30px;
+
+}
+
+.topnav {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    position: relative;
+    right: 0;
+
+}
+
+
+.search {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 20px 20px;
+
+
+}
+
+.search input {
+    padding: 10px 50px;
+    border-radius: 30px;
+    border: 2px solid transparent;
+}
+
+.topnavright {
+    padding: 10px 10px;
+    width: 50%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: end;
+}
+
+.topnavright button {
+    background-color: orchid;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid transparent;
+}
+
+
+.bottomnav {
+    width: 100%;
+    height: 15vh;
+    position: fixed;
+    top: 10vh;
+    padding: 10px;
+}
+
+.bottomnav h1 {
+    padding: 10px;
+}
+
+.stories {
+    width: 80%;
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: none;
+    align-items: center;
+    gap: 5px;
+
+}
+.circle-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle {
+    flex-shrink: 0;
+    height: 70px;
+    width: 70px;
+    border-radius: 70px;
+    background-color: rgb(189, 153, 153);
+    padding: 2px;
+    background-clip: content-box;
+    border: 2px solid rgb(215, 3, 130);
+}
+
+.circle img{
+    height: 55px;
+    width: 55px;
+    border-radius: 55px;
+    overflow: hidden;
+    object-fit: cover;  
+}
+.icon {
+    font-size:   xx-large;
+}
+
+.feed{
+    position: fixed;
+    height: 67vh;
+    bottom: 0;
+    padding: 10px;
+    
+}
+.post-container{
+    position: relative;
+    margin-left: 10vw;
+    padding-top: 20px;
+    height: 100%;
+    width: 60vw;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.post{
+    position: relative;
+
+    background-color: blue;
+    width: 50vw;
+    height: 90%;
+    border-radius: 20px;
+}
+.posttop{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.posttop-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 50%;
+    /* background-color: aqua; */
+}
+.posttop-left{
+    display: flex;
+    padding: 10px;
+    width: 50%;
+    align-items: center;
+    justify-content: right;
+    font-size: 30px;
+}
+
+.post-profile{
+    height: 50px;       
+    width: 50px;
+    border-radius: 50px;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    /* width: 100%; */
+    height: 100%;
+    object-fit: cover;  
+}
+.leftnav {
+    height: 10vh;
+    display: flex;
+    font-size: xx-large;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 25vh;
+}
+
+.profile img {
+    height: 150px;
+    width: 150px;
+}
+
+.follower {
+    margin-top: 2vh;
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+.b1 {
+
+    padding-right: 20px;
+    border-right: 2px solid black;
+}
+
+.b2 {
+    padding-right: 20px;
+    border-right: 2px solid black;
+}
+
+.b3 {
+    /* padding-right: 20px; */
+    /* border-right: 2px solid black; */
+}
+
+.about {
+    margin-bottom: 20px;
+}
+
+.hstory {
+    height: 7vh;
+}
+.highlight-story{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    overflow-x: auto;
+    scrollbar-width: none;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.cir1 {
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    background-color: black;
+    /* background-clip: content-box;
+    padding: 1px;
+     border: 2px solid rgb(215, 3, 130); */
+    flex-shrink: 0; 
+}
+
